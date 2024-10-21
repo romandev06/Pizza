@@ -1,0 +1,334 @@
+cart-text.cart-icon, .bin-icon, .go-back__icon {
+  width: 25px;
+  height: 25px;
+}
+
+.cart-section {
+  background-color: white;
+}
+
+.cart-text__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+
+.cart-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3px;
+  font-size: 32px;
+}
+@media (max-width: 810px) {
+  .cart-text h3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 410px) {
+  .cart-text h3 {
+    font-size: 24px;
+  }
+}
+
+.clear-cart__btn {
+  color: rgb(182, 182, 182);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3px;
+  background-color: transparent;
+}
+@media (max-width: 410px) {
+  .clear-cart__btn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 410px) {
+  .clear-cart__btn svg {
+    display: none;
+  }
+}
+
+.go-back__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-inline: 12px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 30px;
+  background-color: transparent;
+}
+@media (max-width: 810px) {
+  .go-back__text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 510px) {
+  .go-back__text {
+    font-size: 14px;
+    width: 125px;
+  }
+}
+@media (max-width: 810px) {
+  .go-back__text svg {
+    display: none;
+  }
+}
+
+.cart-pay__btn {
+  border-radius: 30px;
+  background-color: rgb(254, 95, 30);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+@media (max-width: 810px) {
+  .cart-pay__btn {
+    font-size: 15px;
+  }
+}
+@media (max-width: 510px) {
+  .cart-pay__btn {
+    font-size: 14px;
+    width: 135px;
+    padding: 0px;
+  }
+}
+
+.pizza-cart__count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.pizza-cart__count img {
+  cursor: pointer;
+}
+
+.pizza-cart__section {
+  margin-block: 80px;
+}
+
+.pizza-cart__properties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+@media (max-width: 810px) {
+  .pizza-cart__properties {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.pizza-cart__properties .pizza-data h4 {
+  width: 248px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+@media (max-width: 410px) {
+  .pizza-cart__properties .pizza-data h4 {
+    font-size: 20px;
+  }
+}
+.pizza-cart__properties .pizza-data p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(141, 141, 141);
+}
+
+@media (max-width: 1110px) {
+  .cart-button {
+    position: relative;
+    left: 15px;
+  }
+}
+@media (max-width: 810px) {
+  .cart-button {
+    position: relative;
+    left: 0;
+  }
+}
+
+.pizza-cart__values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+@media (max-width: 810px) {
+  .pizza-cart__values {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+.go-back__wrapper {
+  margin-top: 40px;
+}
+@media (max-width: 510px) {
+  .go-back__wrapper {
+    padding-inline: 0 !important;
+  }
+}
+
+.pizza-cart__price {
+  width: 66px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+@media (max-width: 410px) {
+  .pizza-cart__price {
+    font-size: 20px;
+  }
+}
+
+.plus-count__btn, .minus-count__btn {
+  background-color: transparent;
+  padding: 0;
+  pointer-events: none;
+}
+.plus-count__btn img, .minus-count__btn img {
+  pointer-events: visible;
+}
+.plus-count__btn img:active, .minus-count__btn img:active {
+  -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+.plus-count__btn .img-disabled, .minus-count__btn .img-disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.plus-count__btn .img-disabled:active, .minus-count__btn .img-disabled:active {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+/* CartEmpty */
+.cart-empty__section {
+  text-align: center;
+}
+.cart-empty__section h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+@media (max-width: 810px) {
+  .cart-empty__section h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 810px) {
+  .cart-empty__section h3 {
+    font-size: 28px;
+  }
+}
+.cart-empty__section button {
+  display: block;
+  margin-inline: auto;
+  margin-top: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: white;
+  border-radius: 4px;
+  background-color: rgb(40, 40, 40);
+}
+.cart-empty__section p {
+  margin-inline: auto;
+  width: 540px;
+  color: rgb(119, 119, 119);
+  margin-block: 10px 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (max-width: 810px) {
+  .cart-empty__section p {
+    width: 450px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 510px) {
+  .cart-empty__section p {
+    width: 370px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 410px) {
+  .cart-empty__section p {
+    width: 320px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 340px) {
+  .cart-empty__section p {
+    width: 300px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 510px) {
+  .cart-empty__section img {
+    width: 280px;
+    height: 230px;
+  }
+}
+@media (max-width: 410px) {
+  .cart-empty__section img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+.pizza-cart__delete-btn {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}

@@ -1,0 +1,292 @@
+cart-text.cart-icon, .bin-icon, .go-back__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.cart-section {
+    background-color: white;
+}
+
+.cart-text__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.cart-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    font-size: 32px;
+
+    h3 {
+        @media (max-width: 810px) {
+            font-size: 28px;
+        }
+
+        @media (max-width: 410px) {
+            font-size: 24px;
+        }
+    }
+}
+
+.clear-cart__btn {
+    color: rgb(182, 182, 182);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    background-color: transparent;
+
+    @media (max-width: 410px) {
+        font-size: 18px;
+    }
+
+    svg {
+        @media (max-width: 410px) {
+            display: none;
+        }
+    }
+}
+
+.go-back__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 12px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 30px;
+    background-color: transparent;
+
+    @media (max-width: 810px) {
+        font-size: 15px;
+    }
+
+    @media (max-width: 510px) {
+        font-size: 14px;
+        width: 125px;
+    }
+
+    svg {
+        @media (max-width: 810px) {
+            display: none;
+        }
+    }
+}
+
+.cart-pay__btn {
+    border-radius: 30px;
+    background-color: rgb(254, 95, 30);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+
+    @media (max-width: 810px) {
+        font-size: 15px;
+    }
+
+    @media (max-width: 510px) {
+        font-size: 14px;
+        width: 135px;
+        padding: 0px;
+    }
+}
+
+.pizza-cart__count {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.pizza-cart__section {
+    margin-block: 80px;
+}
+
+.pizza-cart__properties {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    @media (max-width: 810px) {
+        flex-wrap: wrap;
+    }
+
+    .pizza-data {
+        h4 {
+            width: 248px;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 27px;
+
+            @media (max-width: 410px) {
+                font-size: 20px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            color: rgb(141, 141, 141);
+        }
+    }
+}
+
+.cart-button {
+    @media (max-width: 1110px) {
+        position: relative;
+        left: 15px;
+    }
+
+    @media (max-width: 810px) {
+        position: relative;
+        left: 0;
+    }
+}
+
+.pizza-cart__values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    @media (max-width: 810px) {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+.go-back__wrapper {
+    margin-top: 40px;
+
+    @media (max-width: 510px) {
+        padding-inline: 0 !important;
+    }
+}
+
+.pizza-cart__price {
+    width: 66px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+
+    @media (max-width: 410px) {
+        font-size: 20px;
+    }
+}
+
+
+.plus-count__btn, .minus-count__btn {
+    background-color: transparent;
+    padding: 0;
+    pointer-events: none;
+
+    img {
+        pointer-events: visible;
+
+        &:active {
+            transform: translateY(-2px);
+        }
+    }
+
+    .img-disabled {
+        opacity: 0.5;
+        cursor: default;
+
+        &:active {
+            transform: none;
+        }
+    }
+}
+
+
+/* CartEmpty */
+
+.cart-empty__section {
+    text-align: center;
+
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+
+        @media (max-width: 810px) {
+            font-size: 30px;
+        }
+
+        @media (max-width: 810px) {
+            font-size: 28px;
+        }
+    }
+
+    button {
+        display: block;
+        margin-inline: auto;
+        margin-top: 70px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(40, 40, 40);
+    }
+
+    p {
+        margin-inline: auto;
+        width: 540px;
+        color: rgb(119, 119, 119);
+        margin-block: 10px 40px;
+        font-size: 18px;
+        font-weight: 400;
+
+        @media (max-width: 810px) {
+            width: 450px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 510px) {
+            width: 370px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 410px) {
+            width: 320px;
+            font-size: 15px;
+        }
+
+        @media (max-width: 340px) {
+            width: 300px;
+            font-size: 14px;
+        }
+    }
+
+    img {
+        @media (max-width: 510px) {
+            width: 280px;
+            height: 230px;
+        }
+
+        @media (max-width: 410px) {
+            width: 250px;
+            height: 200px;
+        }
+    }
+}
+
+.pizza-cart__delete-btn {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}

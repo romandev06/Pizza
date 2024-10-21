@@ -1,0 +1,52 @@
+[
+    {
+        "id": "0",
+        "image": "/staticImages/image1.png",
+        "title": "Пепперони",
+        "price": 2500,
+        "sizes": [0, 1],
+        "types": [0, 1, 2],
+        "rating": 6,
+        "category": 1
+    },
+    {
+        "id": "1",
+        "image": "/staticImages/image2.png",
+        "title": "Пепперони 2",
+        "price": 7800,
+        "sizes": [0, 1],
+        "types": [0, 1],
+        "rating": 3,
+        "category": 1
+    },
+    {
+        "id": "2",
+        "image": "/staticImages/image3.png",
+        "title": "Пепперони 3",
+        "price": 9900,
+        "sizes": [0, 1, 2],
+        "types": [0, 1, 2],
+        "rating": 10,
+        "category": 1
+    },
+    {
+        "id": "3",
+        "image": "/staticImages/image4.png",
+        "title": "Пепперони 4",
+        "price": 2100,
+        "sizes": [0, 1],
+        "types": [0, 1, 2],
+        "rating": 1,
+        "category": 2
+    },
+    {
+        "id": "4",
+        "image": "/staticImages/image5.png",
+        "title": "Пепперони 5",
+        "price": 3200,
+        "sizes": [0, 1, 2],
+        "types": [0, 1],
+        "rating": 5,
+        "category": 2
+    }
+]

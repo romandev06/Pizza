@@ -1,0 +1,146 @@
+@import './homePage/all.css'; // стилизация главной страницы
+@import './cart/cart.css';
+@import './normalize/normalize.css'; // normalize стили
+@import './undefinedPage/undefined.css';
+@import './pizzaPage/pizza.css';
+
+body {
+    background-color: #FFDF8C;
+}
+
+.app-section {
+    width: 1750px;
+    margin-inline: auto !important;
+    background-color: white !important;
+    padding-bottom: 50px;
+
+    @media (max-width: 1760px) {
+        // width: 1400px;
+        width: 1560px;
+    }
+
+    @media (max-width: 1570px) {
+        width: 1370px;
+    }
+
+    @media (max-width: 1410px) {
+        width: 1310px;
+    }
+
+    @media (max-width: 1320px) {
+        width: 1220px;
+    }
+
+    @media (max-width: 1230px) {
+        width: 1130px;
+    }
+
+    @media (max-width: 1140px) {
+        width: 1040px;
+    }
+
+    @media (max-width: 1050px) {
+        width: 950px;
+    }
+
+    @media (max-width: 960px) {
+        width: 860px;
+    }
+
+    @media (max-width: 870px) {
+        width: 770px;
+    }
+
+    @media (max-width: 780px) {
+        width: 680px;
+    }
+
+    @media (max-width: 690px) {
+        width: 640px;
+    }
+
+    @media (max-width: 650px) {
+        width: 590px;
+    }
+
+    @media (max-width: 600px) {
+        width: 550px;
+    }
+
+    @media (max-width: 560px) {
+        width: 510px;
+    }
+
+    @media (max-width: 520px) {
+        width: 460px;
+    }
+
+    @media (max-width: 470px) {
+        width: 420px;
+    }
+
+    @media (max-width: 430px) {
+        width: 380px;
+    }
+
+    @media (max-width: 390px) {
+        width: 340px;
+    }
+
+    @media (max-width: 350px) {
+        width: 310px;
+    }
+}
+
+.container {
+    width: 1280px;
+    background-color: white !important;
+    margin-inline: auto;
+    padding: 40px 60px 80px 60px;
+
+    @media (max-width: 1410px) {
+        width: 1000px;
+    }
+
+    @media (max-width: 1110px) {
+        width: 700px;
+    }
+
+    @media (max-width: 810px) {
+        width: 400px;
+    }
+
+    @media (max-width: 510px) {
+        width: 350px;
+    }
+
+    @media (max-width: 410px) {
+        width: 300px;
+    }
+}
+
+.cart-container {
+    width: 920px;
+    background-color: white !important;
+    margin-inline: auto;
+    padding: 40px 60px 80px 60px;
+
+    @media (max-width: 1110px) {
+        width: 700px;
+    }
+
+    @media (max-width: 810px) {
+        width: 500px;
+    }
+
+    @media (max-width: 510px) {
+        width: 350px;
+        padding: 40px 30px 80px 30px;
+    }
+
+    @media (max-width: 410px) {
+        width: 300px;
+
+        padding: 40px 20px 30px 20px;
+    }
+}

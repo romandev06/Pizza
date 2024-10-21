@@ -1,0 +1,9 @@
+.undefined-section {
+  padding-block: 30px 0;
+  text-align: center;
+}
+.undefined-section button {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,171 @@
+@import './homePage/all.css';
+@import './cart/cart.css';
+@import './normalize/normalize.css';
+@import './undefinedPage/undefined.css';
+@import './pizzaPage/pizza.css';
+body {
+  background-color: #FFDF8C;
+}
+
+.app-section {
+  width: 1750px;
+  margin-inline: auto !important;
+  background-color: white !important;
+  padding-bottom: 50px;
+}
+@media (max-width: 1760px) {
+  .app-section {
+    width: 1560px;
+  }
+}
+@media (max-width: 1570px) {
+  .app-section {
+    width: 1370px;
+  }
+}
+@media (max-width: 1410px) {
+  .app-section {
+    width: 1310px;
+  }
+}
+@media (max-width: 1320px) {
+  .app-section {
+    width: 1220px;
+  }
+}
+@media (max-width: 1230px) {
+  .app-section {
+    width: 1130px;
+  }
+}
+@media (max-width: 1140px) {
+  .app-section {
+    width: 1040px;
+  }
+}
+@media (max-width: 1050px) {
+  .app-section {
+    width: 950px;
+  }
+}
+@media (max-width: 960px) {
+  .app-section {
+    width: 860px;
+  }
+}
+@media (max-width: 870px) {
+  .app-section {
+    width: 770px;
+  }
+}
+@media (max-width: 780px) {
+  .app-section {
+    width: 680px;
+  }
+}
+@media (max-width: 690px) {
+  .app-section {
+    width: 640px;
+  }
+}
+@media (max-width: 650px) {
+  .app-section {
+    width: 590px;
+  }
+}
+@media (max-width: 600px) {
+  .app-section {
+    width: 550px;
+  }
+}
+@media (max-width: 560px) {
+  .app-section {
+    width: 510px;
+  }
+}
+@media (max-width: 520px) {
+  .app-section {
+    width: 460px;
+  }
+}
+@media (max-width: 470px) {
+  .app-section {
+    width: 420px;
+  }
+}
+@media (max-width: 430px) {
+  .app-section {
+    width: 380px;
+  }
+}
+@media (max-width: 390px) {
+  .app-section {
+    width: 340px;
+  }
+}
+@media (max-width: 350px) {
+  .app-section {
+    width: 310px;
+  }
+}
+
+.container {
+  width: 1280px;
+  background-color: white !important;
+  margin-inline: auto;
+  padding: 40px 60px 80px 60px;
+}
+@media (max-width: 1410px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 1110px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 810px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 510px) {
+  .container {
+    width: 350px;
+  }
+}
+@media (max-width: 410px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.cart-container {
+  width: 920px;
+  background-color: white !important;
+  margin-inline: auto;
+  padding: 40px 60px 80px 60px;
+}
+@media (max-width: 1110px) {
+  .cart-container {
+    width: 700px;
+  }
+}
+@media (max-width: 810px) {
+  .cart-container {
+    width: 500px;
+  }
+}
+@media (max-width: 510px) {
+  .cart-container {
+    width: 350px;
+    padding: 40px 30px 80px 30px;
+  }
+}
+@media (max-width: 410px) {
+  .cart-container {
+    width: 300px;
+    padding: 40px 20px 30px 20px;
+  }
+}
