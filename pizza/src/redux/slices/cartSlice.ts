@@ -34,7 +34,7 @@ const cartSlice = createSlice({
             if (currentObject) {
                 currentObject.count++
             } else {
-                state.cartItems.push({ ...action.payload, count: 1 })
+                state.cartItems.push({ ...action.payload })
             }
             state.totalPrice = calcTotalPrice(state.cartItems)
         },

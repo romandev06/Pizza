@@ -33,7 +33,7 @@ export default function PizzaBlock({ id, image, title, price, category, rating, 
 
     const addItemToCart = () => {
         const cartItemData = {
-            id, image, title, price, size: sizeNames[activeSize], type: typeNames[activeType], count: 0,
+            id, image, title, price, size: sizeNames[activeSize], type: typeNames[activeType], count: 1,
         }
 
         dispatch(addItem(cartItemData))
